@@ -1,0 +1,64 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+button {
+    font-family: 'Barlow', sans-serif;
+    float: right;
+}
+
+
+.green-color {
+    color: #5cb85c;
+}
+
+
+.material-icons {
+    position: absolute;
+    user-select: none;
+}
+.material-icons:hover {
+    cursor: pointer;
+    color: #808080;
+}
+.material-icons:active {
+    color: black;
+}
+
+
+.task {
+    margin: 8px;
+    max-width: 400px;
+}
+.task-name {
+    font-size: 18px;
+    margin-right: 10px;
+    max-width: 200px;
+    user-select: none;
+}
+.task-name:hover {
+    cursor: pointer;
+}
+.remove-button {
+    margin-left: 10px;
+    border: 1px solid #d9534f;
+    border-radius: 5px;
+    background-color: white;
+    color: #d9534f;
+}
+.status-switch-button {
+    border: 1px solid #0275d8;
+    border-radius: 5px;
+    background-color: white;
+    color: #0275d8;
+}
+
+
+
+.add-task-input {
+    width: 376px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
